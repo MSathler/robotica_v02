@@ -47,7 +47,7 @@
         rpy="1.57 0 0" />
       <geometry>
         <mesh
-          filename="package://robocop/meshes/Link1.STL" /> <!--filename="package://robocop/meshes/Link1.STL" />-->
+          filename="package://robotica_v02/meshes/Link1.STL" /> <!--filename="package://robocop/meshes/Link1.STL" />-->
       </geometry>
       <material
         name="">
@@ -76,11 +76,11 @@
 
         <visual>
       <origin
-        xyz="0 0 0"
+        xyz="0.025 0.03 0.125"
         rpy="-1.57 0 1.57" />
       <geometry>
         <mesh
-          filename="package://robocop/meshes/Link2.STL" />
+          filename="package://robotica_v02/meshes/Link2.STL" />
       </geometry>
       <material
         name="">
@@ -109,11 +109,11 @@
 
         <visual>
       <origin
-        xyz="0 0 0"
+        xyz="-0.025 0.06 0.305"
         rpy="-1.57 0 0" />
       <geometry>
         <mesh
-          filename="package://robocop/meshes/Link3.STL" />
+          filename="package://robotica_v02/meshes/Link3.STL" />
       </geometry>
       <material
         name="">
@@ -142,11 +142,11 @@
 
         <visual>
       <origin
-        xyz="0 0.044 -0.044"
-        rpy="1.57 0 0" />
+        xyz="0.022 0 0"
+        rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://robocop/meshes/Link4.STL" />
+          filename="package://robotica_v02/meshes/Base.STL" />
       </geometry>
       <material
         name="">
@@ -175,11 +175,11 @@
 
         <visual>
       <origin
-        xyz="0 0.044 -0.044"
+        xyz="0 0 -0.044"
         rpy="1.57 0 0" />
       <geometry>
         <mesh
-          filename="package://robocop/meshes/Link5.STL" />
+          filename="package://robotica_v02/meshes/Link4.STL" />
       </geometry>
       <material
         name="">
@@ -208,11 +208,11 @@
 
         <visual>
       <origin
-        xyz="0 0.044 0"
+        xyz="0 0 -0.044"
         rpy="1.57 0 0" />
       <geometry>
         <mesh
-          filename="package://robocop/meshes/garra.STL" />
+          filename="package://robotica_v02/meshes/Link5.STL" />
       </geometry>
       <material
         name="">
